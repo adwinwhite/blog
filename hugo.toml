@@ -1,0 +1,12 @@
+baseURL = 'https://adwinwhite.github.io/'
+languageCode = 'zh-cn'
+title = '碎纸桶'
+theme = 'hugo-dead-simple'
+
+[markup]
+  [markup.highlight]
+    style = 'onedark'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true 
+      unsafe = true 
